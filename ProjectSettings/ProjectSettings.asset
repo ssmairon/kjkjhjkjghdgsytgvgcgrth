@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 00000000000000000000000000000000
+  productGUID: 981e93df362e3604b8150f917e9f9ba8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -869,7 +869,7 @@ PlayerSettings:
   cloudProjectId: 601e8674-6a27-4172-affa-40dce4c95e32
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: MFPS Mobile
+  projectName: Battlefield1232024
   organizationId: osadtsivoleksii
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

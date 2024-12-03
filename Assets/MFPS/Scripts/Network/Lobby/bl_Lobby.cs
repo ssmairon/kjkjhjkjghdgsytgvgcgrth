@@ -9,6 +9,7 @@ using MFPS.Internal.Structures;
 using MFPS.Runtime.UI;
 using Random = UnityEngine.Random;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 [DefaultExecutionOrder(-998)]
 public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, IMatchmakingCallbacks
@@ -273,31 +274,31 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
         connectionState = LobbyConnectionState.WaitingForUserName;
         if (!rememberMe)
         {
-            string storedNick = PropertiesKeys.GetUniqueKey("playername");
-            if (!PlayerPrefs.HasKey(storedNick) || !bl_GameData.Instance.RememberPlayerName)
-            {
-                CachePlayerName = string.Format(bl_GameData.Instance.guestNameFormat, Random.Range(1, 9999));
-            }
-            else if (bl_GameData.Instance.RememberPlayerName)
-            {
-                CachePlayerName = PlayerPrefs.GetString(storedNick, string.Format(bl_GameData.Instance.guestNameFormat, Random.Range(1, 9999)));
-            }
-            bl_LobbyUI.Instance.PlayerNameField.text = CachePlayerName;
-            SetNickName(CachePlayerName);
-            bl_LobbyUI.Instance.ChangeWindow("player name");
-            bl_LobbyLoadingScreenBase.Instance.HideIn(0.2f, true);
+            //string storedNick = PropertiesKeys.GetUniqueKey("playername");
+            //if (!PlayerPrefs.HasKey(storedNick) || !bl_GameData.Instance.RememberPlayerName)
+            //{
+            //    CachePlayerName = string.Format(bl_GameData.Instance.guestNameFormat, Random.Range(1, 9999));
+            //}
+            //else if (bl_GameData.Instance.RememberPlayerName)
+            //{
+            //    CachePlayerName = PlayerPrefs.GetString(storedNick, string.Format(bl_GameData.Instance.guestNameFormat, Random.Range(1, 9999)));
+            //}
+            //bl_LobbyUI.Instance.PlayerNameField.text = CachePlayerName;
+            //SetNickName(CachePlayerName);
+            //bl_LobbyUI.Instance.ChangeWindow("player name");
+            //bl_LobbyLoadingScreenBase.Instance.HideIn(0.2f, true);
         }
         else
         {
             // Assign the saved nick name automatically
-            CachePlayerName = PlayerPrefs.GetString(PropertiesKeys.GetUniqueKey("remembernick"));
-            if (string.IsNullOrEmpty(CachePlayerName))
-            {
-                rememberMe = false;
-                GeneratePlayerName();
-                return;
-            }
-            SetNickName(CachePlayerName);
+            //CachePlayerName = PlayerPrefs.GetString(PropertiesKeys.GetUniqueKey("remembernick"));
+            //if (string.IsNullOrEmpty(CachePlayerName))
+            //{
+            //    rememberMe = false;
+            //    GeneratePlayerName();
+            //    return;
+            //}
+            //SetNickName(CachePlayerName);
             GoToMainMenu();
         }
     }
@@ -342,10 +343,10 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
     /// </summary>
     public void SetPlayerName(string InputName)
     {
-        CachePlayerName = InputName;
-        PlayerPrefs.SetString(PropertiesKeys.GetUniqueKey("playername"), CachePlayerName);
-        SetNickName(CachePlayerName);
-        ConnectPhoton();
+        //CachePlayerName = InputName;
+        //PlayerPrefs.SetString(PropertiesKeys.GetUniqueKey("playername"), CachePlayerName);
+        //SetNickName(CachePlayerName);
+        //ConnectPhoton();
     }
 
     /// <summary>
@@ -382,7 +383,8 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
             bl_LobbyUI.Instance.SeekingMatchUI.SetActive(true);
             // This is not actually needed :)
             yield return new WaitForSeconds(3);
-            PhotonNetwork.JoinRandomRoom();
+            //PhotonNetwork.JoinRandomRoom();
+            SceneManager.LoadScene("ExampleLevel");
             isSeekingMatch = false;
             bl_LobbyUI.Instance.SeekingMatchUI.SetActive(false);
         }

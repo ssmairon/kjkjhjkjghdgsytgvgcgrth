@@ -1658,11 +1658,11 @@ namespace Photon.Pun
                 EnterOfflineRoom("offline room", null, true);
                 return true;
             }
-            if (NetworkingClient.Server != ServerConnection.MasterServer || !IsConnectedAndReady)
-            {
-                Debug.LogError("JoinRandomRoom failed. Client is on "+ NetworkingClient.Server+ " (must be Master Server for matchmaking)" + (IsConnectedAndReady ? " and ready" : " but not ready for operations (State: "+ NetworkingClient.State + ")") + ". Wait for callback: OnJoinedLobby or OnConnectedToMaster.");
-                return false;
-            }
+            //if (NetworkingClient.Server != ServerConnection.MasterServer || !IsConnectedAndReady)
+            //{
+            //    Debug.LogError("JoinRandomRoom failed. Client is on "+ NetworkingClient.Server+ " (must be Master Server for matchmaking)" + (IsConnectedAndReady ? " and ready" : " but not ready for operations (State: "+ NetworkingClient.State + ")") + ". Wait for callback: OnJoinedLobby or OnConnectedToMaster.");
+            //    return false;
+            //}
 
             typedLobby = typedLobby ?? ((NetworkingClient.InLobby) ? NetworkingClient.CurrentLobby : null);  // use given lobby, or active lobby (if any active) or none
 
