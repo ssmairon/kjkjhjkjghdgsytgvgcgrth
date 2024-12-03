@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Mobile Control
+  m_EditorClassIdentifier: 
+  Name: Mobile Control
+  Version: 1.6.1
+  MinMFPSVersion: 1.9.3
+  Instructions: "<b>Get Started:\r</b>\n\r\n - Import the package in the MFPS 2.0
+    project.\r\n  - Go to (toolbar) MFPS -> Addons -> MobileControl and click on
+    'Enable'\r.\n  - (In each map/room scene) Go to (toolbar) MFPS -> Addons -> MobileControl
+    and click on 'Integrate'.\r\n - Ready.\r\n  \r\n<b>Test:\r</b>\n\r\n  - For test
+    the mobile controls you have two options: Build the game for IOS or android or
+    use Unity Remote app for test from editor\r\n    info about Unity Remote: https://docs.unity3d.com/Manual/UnityRemote5.html\r\n  
+    in editor still will work the PC controls.\r\n\t\r\n<b>Notes:\r</b>\n\r\n - You
+    may need set up the default sensitivity for the touch pad, you can do this in
+    'GameData' in MFPS Resources folder,\r\n    also the default invert mouse options
+    from the room settings menu.\r\n\r\n  - For disable / enable Auto Fire feature,
+    you can do it in 'GameData' -> AutoWeaponFire."
+  TutorialScript: 
