@@ -33,9 +33,9 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Class Customization
     KeyName: CLASS_CUSTOMIZER
-    LastVersion: 1.8.0
+    LastVersion: 1.8.1
     Info: {fileID: 11400000, guid: 72f56d0a2a48bc24f8074e8cd7fbfbe2, type: 2}
-    CurrentVersion: --
+    CurrentVersion: 1.8.1
     MinVersion: 1.6
     FolderName: ClassCustomization
     DoNotRequireEnabled: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Domination
     KeyName: CP
-    LastVersion: 1.5.0
+    LastVersion: 1.5.1
     Info: {fileID: 11400000, guid: f211348ca0ecf614eb958d2ab3fa5270, type: 2}
     CurrentVersion: --
     MinVersion: 1.4
@@ -69,7 +69,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Mobile Control
     KeyName: MFPSM
-    LastVersion: 1.6.0
+    LastVersion: 1.6.2
     Info: {fileID: 11400000, guid: d927b8ba34a2e834eaa167f2e32f00fc, type: 2}
     CurrentVersion: 1.6.1
     MinVersion: 1.2.8
@@ -80,7 +80,7 @@ MonoBehaviour:
     KeyName: MFPSTPV
     LastVersion: 1.1.0
     Info: {fileID: 11400000, guid: 4ee1e5441bc106749b5240537ba933d0, type: 2}
-    CurrentVersion: 1.1.0
+    CurrentVersion: --
     MinVersion: 1.0.4
     FolderName: ThirdPersonView
     DoNotRequireEnabled: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Kill Streaks
     KeyName: KSA
-    LastVersion: 1.1.4
+    LastVersion: 1.1.7
     Info: {fileID: 11400000, guid: e4a292d370365434ea5346210a9f2844, type: 2}
     CurrentVersion: --
     MinVersion: 1.7
@@ -123,7 +123,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Localization
     KeyName: LOCALIZATION
-    LastVersion: 1.2.6
+    LastVersion: 1.2.7
     Info: {fileID: 11400000, guid: 2842a9d9f5e9fe14cb0e3cb7e8150826, type: 2}
     CurrentVersion: --
     MinVersion: 1.0.9
@@ -132,16 +132,16 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Player Selector
     KeyName: PSELECTOR
-    LastVersion: 1.7.6
+    LastVersion: 1.7.7
     Info: {fileID: 11400000, guid: df6c94ac0c5e03c418f6e97d1d17d080, type: 2}
-    CurrentVersion: 1.7.3
+    CurrentVersion: --
     MinVersion: 1.5
     FolderName: PlayerSelector
     DoNotRequireEnabled: 0
     ChangeLog: []
   - NiceName: Scope Pro
     KeyName: 
-    LastVersion: 1.3.0
+    LastVersion: 1.3.1
     Info: {fileID: 11400000, guid: aec66f7f294caee4d9b378b402beca48, type: 2}
     CurrentVersion: --
     MinVersion: 1.0
@@ -150,7 +150,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Shop
     KeyName: SHOP
-    LastVersion: 1.2.4
+    LastVersion: 1.2.5
     Info: {fileID: 11400000, guid: 96c766e892b9d2541a301fc023d51002, type: 2}
     CurrentVersion: --
     MinVersion: 1.2
@@ -159,7 +159,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Unity IAP for Shop
     KeyName: SHOP_UIAP
-    LastVersion: 1.0.4
+    LastVersion: 1.0.6
     Info: {fileID: 11400000, guid: 90f5dc808aa135f47bed8c074c856e7e, type: 2}
     CurrentVersion: --
     MinVersion: 1.0
@@ -195,7 +195,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: ULogin Pro
     KeyName: ULSP
-    LastVersion: 2.3.5
+    LastVersion: 2.4.1
     Info: {fileID: 11400000, guid: 2a81664e1302fce4cbde5078207b1a44, type: 2}
     CurrentVersion: --
     MinVersion: 1.9.47
@@ -204,7 +204,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Weapon Pack #1
     KeyName: 
-    LastVersion: 1.3.1
+    LastVersion: 1.3.3
     Info: {fileID: 11400000, guid: 72b58cf0da0a2a2479b73d553422c0b3, type: 2}
     CurrentVersion: --
     MinVersion: 1.2
@@ -267,7 +267,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Game Resume Pro
     KeyName: 
-    LastVersion: 1.1.3
+    LastVersion: 1.1.4
     Info: {fileID: 11400000, guid: e1af3132e5f0f0547ae63f54397a2dd2, type: 2}
     CurrentVersion: --
     MinVersion: 1.0
@@ -303,7 +303,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Emblems and Playercards
     KeyName: EACC
-    LastVersion: 1.0.5
+    LastVersion: 1.0.6
     Info: {fileID: 11400000, guid: b5169feb49c52e942b19a36dd7084ed6, type: 2}
     CurrentVersion: --
     MinVersion: 1.9
@@ -348,7 +348,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Vouchers
     KeyName: VOUCHERS
-    LastVersion: 1.0.3
+    LastVersion: 1.0.5
     Info: {fileID: 11400000, guid: a7615aaaea6a2084db61c9d786be6cf6, type: 2}
     CurrentVersion: --
     MinVersion: 1.0
@@ -357,7 +357,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Anti-Cheat And Reporting
     KeyName: ACTK_IS_HERE
-    LastVersion: 1.0.1
+    LastVersion: 1.0.2
     Info: {fileID: 11400000, guid: 997f645551da940418fc06fbfd10b3ea, type: 2}
     CurrentVersion: --
     MinVersion: 1.0
@@ -366,7 +366,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Game News
     KeyName: GAMENEWS
-    LastVersion: 1.0.0
+    LastVersion: 1.0.2
     Info: {fileID: 11400000, guid: 36db8bad1e54be34f9481e7799731ce4, type: 2}
     CurrentVersion: --
     MinVersion: 1.0
@@ -375,7 +375,7 @@ MonoBehaviour:
     ChangeLog: []
   - NiceName: Daily Reward
     KeyName: DREWARD
-    LastVersion: 1.0.1
+    LastVersion: 1.1.0
     Info: {fileID: 11400000, guid: b820b0de54703124b8b5fde892ebea56, type: 2}
     CurrentVersion: --
     MinVersion: 1.9
@@ -399,5 +399,104 @@ MonoBehaviour:
     MinVersion: 1.9.3
     FolderName: SpawnSelection
     DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: Aim Assist
+    KeyName: AAS
+    LastVersion: 1.0.2
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9.3
+    FolderName: AimAssist
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Matchmaking Pro
+    KeyName: MMP
+    LastVersion: 1.0.2
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9.3
+    FolderName: MatchmakingPro
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Side Leaning
+    KeyName: PSLG
+    LastVersion: 1.0.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9.0
+    FolderName: SideLeaning
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Crosshair Pro
+    KeyName: CROSSPRO
+    LastVersion: 1.0.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.10.0
+    FolderName: CrosshairPro
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Connection Screens
+    KeyName: Connection Screens
+    LastVersion: 1.0.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9.3
+    FolderName: Reskins/ConnectionScreens
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Name Plate Pro
+    KeyName: Name Plate Pro
+    LastVersion: 1.0.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9.3
+    FolderName: NamePlatePro
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Weapon Pack #3
+    KeyName: 
+    LastVersion: 
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Weapon Packs/WeaponPack[3]
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Battle Pass
+    KeyName: BATTLEPASS
+    LastVersion: 1.0.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9
+    FolderName: News
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Case Opening
+    KeyName: case-opening
+    LastVersion: 
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9.3
+    FolderName: Case Opening
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: VIP Pass
+    KeyName: vip-pass
+    LastVersion: 
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.10.0
+    FolderName: VIP Pass
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Night Vision
+    KeyName: night-vision
+    LastVersion: 
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9.3
+    FolderName: NightVision
+    DoNotRequireEnabled: 0
     ChangeLog: []
   AutoUpdate: 0
