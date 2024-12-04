@@ -2575,7 +2575,11 @@ namespace Photon.Realtime
             {
                 Debug.Log(message);
             }
-            #endif
+            if (level == DebugLevel.ERROR && message.Contains("Failed parsing address"))
+            {
+                Debug.LogError("Error stack trace: " + Environment.StackTrace);
+            }
+#endif
         }
 
         private void CallbackRoomEnterFailed(OperationResponse operationResponse)

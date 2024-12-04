@@ -1,5 +1,7 @@
 using UnityEngine;
 using System;
+using Photon.Pun;
+
 
 [DefaultExecutionOrder(-800)]
 public class bl_RoomMenu : bl_MonoBehaviour
@@ -238,12 +240,12 @@ public class bl_RoomMenu : bl_MonoBehaviour
     public void LeaveRoom(bool save = true)
     {
 #if ULSP
-        if (bl_DataBase.IsUserLogged && save)
-        {
-            var p = bl_PhotonNetwork.LocalPlayer;
-            bl_ULoginMFPS.SaveLocalPlayerKDS();
-            bl_DataBase.Instance.StopAndSaveTime();
-        }
+            if (bl_DataBase.IsUserLogged && save)
+            {
+                var p = bl_PhotonNetwork.LocalPlayer;
+                bl_ULoginMFPS.SaveLocalPlayerKDS();
+                bl_DataBase.Instance.StopAndSaveTime();
+            }
 #endif
         //Good place to save info before reset statistics
         if (bl_PhotonNetwork.IsConnected && bl_PhotonNetwork.InRoom)

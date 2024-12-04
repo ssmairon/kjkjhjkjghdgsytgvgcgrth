@@ -308,34 +308,38 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
     /// </summary>
     void GoToMainMenu()
     {
-        if (!bl_PhotonNetwork.IsConnected)
-        {
-            ConnectPhoton();
-        }
-        else
-        {
-            if (!PhotonNetwork.InLobby)
-            {
-                if (PhotonNetwork.NetworkClientState == ClientState.ConnectedToMasterServer)
-                {
-                    PhotonNetwork.JoinLobby();
-                }
-            }
-            else
-            {
+        //if (!bl_PhotonNetwork.IsConnected)
+        //{
+        //    ConnectPhoton();
+        //}
+        //else
+        //{
+        //    if (!PhotonNetwork.InLobby)
+        //    {
+        //        if (PhotonNetwork.NetworkClientState == ClientState.ConnectedToMasterServer)
+        //        {
+        //            PhotonNetwork.JoinLobby();
+        //        }
+        //    }
+        //    else
+        //    {
 
-                if (string.IsNullOrEmpty(bl_PhotonNetwork.NickName))
-                {
-                    Debug.LogError("Player nick name has not been authenticated!");
-                }
+        //        if (string.IsNullOrEmpty(bl_PhotonNetwork.NickName))
+        //        {
+        //            Debug.LogError("Player nick name has not been authenticated!");
+        //        }
 
-                connectionState = LobbyConnectionState.Connected;
-                if (!alreadyLoadHome) { bl_LobbyUI.Instance.Home(); alreadyLoadHome = true; }
-                SetLobbyChat(true);
-                ResetValues();
-                bl_LobbyLoadingScreenBase.Instance.HideIn(0.2f, true);
-            }
-        }
+        //        connectionState = LobbyConnectionState.Connected;
+        //        if (!alreadyLoadHome) { bl_LobbyUI.Instance.Home(); alreadyLoadHome = true; }
+        //        SetLobbyChat(true);
+        //        ResetValues();
+        //        bl_LobbyLoadingScreenBase.Instance.HideIn(0.2f, true);
+        //    }
+        //}
+        if (!alreadyLoadHome) { bl_LobbyUI.Instance.Home(); alreadyLoadHome = true; }
+        SetLobbyChat(true);
+        ResetValues();
+        bl_LobbyLoadingScreenBase.Instance.HideIn(0.2f, true);
     }
 
     /// <summary>
