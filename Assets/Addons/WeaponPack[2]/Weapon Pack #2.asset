@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Weapon Pack #2
+  m_EditorClassIdentifier: 
+  Name: Weapon Pack #2
+  Version: 1.0.0
+  MinMFPSVersion: 1.9
+  Instructions: '<b>Get Started:</b>
+
+
+
+    This package includes all files including
+    the weapon models, so after you import it you will have all needed to use it,
+    but before that follow the get started steps in the documentation in editor top
+    navigation menu > MFPS > Tutorials > Weapon Pack 2
+
+
+    After this you can test
+    the weapons right away with the pre-integrated player prefab locate in <i>Assets
+    -> Addons -> WeaponPack[2] -> Resources -> MPlayer [WP2]</i>, assign this player
+    in GameData > Player 1 / 2
+
+
+    Or integrate in your own player prefabs by following
+    the tutorial in the same documentation window on the <b>Integration</b> section.
+
+
+    <b>Credits:</b>
+
+
+    Weapon
+    models, arms, and textures by <b>DJMaesen</b>
+
+    check the <i>License.txt</i>
+    for more details and license.'
+  TutorialScript: WeaponPack2Documentation

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b359ebc0e90e68f4580fe50ba292de5a, type: 3}
   m_Name: ClassManager
   m_EditorClassIdentifier: 
-  playerClass: 1
+  playerClass: 0
   DefaultAssaultClass: {fileID: 11400000, guid: c739e535e3705164dbd83796e2c8cf2f, type: 2}
   DefaultEngineerClass: {fileID: 11400000, guid: b8a49bae35785ba4c975b1bb63298385, type: 2}
   DefaultSupportClass: {fileID: 11400000, guid: 33d3d7388ff445e4996ff099114d8fc1, type: 2}

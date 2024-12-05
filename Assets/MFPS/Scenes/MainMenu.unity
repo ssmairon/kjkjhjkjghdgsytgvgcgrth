@@ -1151,7 +1151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224951983254632838, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.700012
+      value: -5.7000427
       objectReference: {fileID: 0}
     - target: {fileID: 224996285961691768, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1167,7 +1167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2104125656827917090, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.323029
+      value: -26.322968
       objectReference: {fileID: 0}
     - target: {fileID: 2286578857751703186, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: sceneViewId
@@ -1243,7 +1243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5689433044632506220, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.700012
+      value: -5.7000427
       objectReference: {fileID: 0}
     - target: {fileID: 6630382978780038359, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_text
@@ -1311,7 +1311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8023155865816956029, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -11.600128
+      value: -11.600098
       objectReference: {fileID: 0}
     - target: {fileID: 8701350492761762760, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1331,7 +1331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053474612758431893, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.324982
+      value: -26.32492
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
