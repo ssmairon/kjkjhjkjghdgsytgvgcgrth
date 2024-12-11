@@ -1,0 +1,8 @@
+"M1 Abrams Tank" Model and Textures by willdudley is licensed under CC Attribution (CC BY 4.0).
+
+Creator: https://sketchfab.com/willdudley
+Source: https://sketchfab.com/3d-models/m1-abrams-tank-3e8ab5cc2f8f4385bb787908dabbace3
+
+Modifications:
+
+Model Rig: Lovatto Studio

@@ -245,64 +245,64 @@ MonoBehaviour:
       isEnabled: 1
     - Name: Sniper
       GunID: 4
-      isEnabled: 0
+      isEnabled: 1
     - Name: Knife
       GunID: 5
       isEnabled: 1
     - Name: Molotov
       GunID: 6
-      isEnabled: 0
+      isEnabled: 1
     - Name: Grenade Launcher
       GunID: 7
       isEnabled: 1
     - Name: Rifle02
       GunID: 8
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle03
       GunID: 9
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle04
       GunID: 10
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe
       GunID: 11
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade2
       GunID: 12
       isEnabled: 1
     - Name: Pistol1
       GunID: 13
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol2
       GunID: 14
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol3
       GunID: 15
-      isEnabled: 1
+      isEnabled: 0
     - Name: Knife2
       GunID: 16
-      isEnabled: 1
+      isEnabled: 0
     - Name: ShotGun2
       GunID: 17
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle
       GunID: 18
-      isEnabled: 1
+      isEnabled: 0
     - Name: TommyGun
       GunID: 19
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe2
       GunID: 20
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade Gun
       GunID: 21
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle05
       GunID: 22
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle2
       GunID: 23
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle6
       GunID: 24
       isEnabled: 1
@@ -364,58 +364,58 @@ MonoBehaviour:
       isEnabled: 1
     - Name: Molotov
       GunID: 6
-      isEnabled: 0
+      isEnabled: 1
     - Name: Grenade Launcher
       GunID: 7
       isEnabled: 1
     - Name: Rifle02
       GunID: 8
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle03
       GunID: 9
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle04
       GunID: 10
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe
       GunID: 11
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade2
       GunID: 12
       isEnabled: 1
     - Name: Pistol1
       GunID: 13
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol2
       GunID: 14
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol3
       GunID: 15
-      isEnabled: 1
+      isEnabled: 0
     - Name: Knife2
       GunID: 16
-      isEnabled: 1
+      isEnabled: 0
     - Name: ShotGun2
       GunID: 17
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle
       GunID: 18
-      isEnabled: 1
+      isEnabled: 0
     - Name: TommyGun
       GunID: 19
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe2
       GunID: 20
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade Gun
       GunID: 21
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle05
       GunID: 22
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle2
       GunID: 23
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle6
       GunID: 24
       isEnabled: 1
@@ -483,52 +483,52 @@ MonoBehaviour:
       isEnabled: 1
     - Name: Rifle02
       GunID: 8
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle03
       GunID: 9
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle04
       GunID: 10
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe
       GunID: 11
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade2
       GunID: 12
       isEnabled: 1
     - Name: Pistol1
       GunID: 13
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol2
       GunID: 14
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol3
       GunID: 15
-      isEnabled: 1
+      isEnabled: 0
     - Name: Knife2
       GunID: 16
-      isEnabled: 1
+      isEnabled: 0
     - Name: ShotGun2
       GunID: 17
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle
       GunID: 18
-      isEnabled: 1
+      isEnabled: 0
     - Name: TommyGun
       GunID: 19
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe2
       GunID: 20
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade Gun
       GunID: 21
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle05
       GunID: 22
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle2
       GunID: 23
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle6
       GunID: 24
       isEnabled: 1
@@ -596,52 +596,52 @@ MonoBehaviour:
       isEnabled: 0
     - Name: Rifle02
       GunID: 8
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle03
       GunID: 9
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle04
       GunID: 10
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe
       GunID: 11
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade2
       GunID: 12
       isEnabled: 1
     - Name: Pistol1
       GunID: 13
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol2
       GunID: 14
-      isEnabled: 1
+      isEnabled: 0
     - Name: Pistol3
       GunID: 15
-      isEnabled: 1
+      isEnabled: 0
     - Name: Knife2
       GunID: 16
-      isEnabled: 1
+      isEnabled: 0
     - Name: ShotGun2
       GunID: 17
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle
       GunID: 18
-      isEnabled: 1
+      isEnabled: 0
     - Name: TommyGun
       GunID: 19
-      isEnabled: 1
+      isEnabled: 0
     - Name: Axe2
       GunID: 20
-      isEnabled: 1
+      isEnabled: 0
     - Name: Grenade Gun
       GunID: 21
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle05
       GunID: 22
-      isEnabled: 1
+      isEnabled: 0
     - Name: SniperRifle2
       GunID: 23
-      isEnabled: 1
+      isEnabled: 0
     - Name: Rifle6
       GunID: 24
       isEnabled: 1
@@ -6565,7 +6565,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'FIRE  RATE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6957,7 +6957,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: CHANGE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8707,7 +8707,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'DAMAGE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8991,7 +8991,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'ACCURACY:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9926,7 +9926,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: CHANGE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -10392,7 +10392,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'ACCURACY:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -14474,7 +14474,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'DAMAGE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -14608,7 +14608,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: CHANGE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -16082,7 +16082,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'FIRE  RATE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -16590,7 +16590,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'DAMAGE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -17087,7 +17087,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'FIRE  RATE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -17221,7 +17221,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'ACCURACY:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -17766,7 +17766,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'DAMAGE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -17975,7 +17975,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'FIRE  RATE:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -18257,7 +18257,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'ACCURACY:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -19500,7 +19500,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: CHANGE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 4829636789070416622, guid: ac0c262ab24c7d04a8663fd4a474b529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
