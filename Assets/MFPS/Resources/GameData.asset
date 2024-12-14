@@ -246,7 +246,7 @@ MonoBehaviour:
     Accuracy: 1
     Weight: 2
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 600
       UnlockAtLevel: 18
@@ -263,7 +263,7 @@ MonoBehaviour:
     Accuracy: 1
     Weight: 2
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 400
       UnlockAtLevel: 20
@@ -433,7 +433,7 @@ MonoBehaviour:
     Accuracy: 5
     Weight: 0
     Unlockability:
-      UnlockMethod: 1
+      UnlockMethod: 0
       ItemType: 0
       Price: 1000
       UnlockAtLevel: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
     Accuracy: 5
     Weight: 2.4
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 700
       UnlockAtLevel: 22
@@ -620,7 +620,7 @@ MonoBehaviour:
     Accuracy: 1
     Weight: 2.6
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 500
       UnlockAtLevel: 26
@@ -637,7 +637,7 @@ MonoBehaviour:
     Accuracy: 4
     Weight: 1.32
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 700
       UnlockAtLevel: 22
@@ -654,7 +654,7 @@ MonoBehaviour:
     Accuracy: 5
     Weight: 3.1
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 500
       UnlockAtLevel: 38
@@ -671,7 +671,7 @@ MonoBehaviour:
     Accuracy: 2
     Weight: 2.3
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 700
       UnlockAtLevel: 22
@@ -688,7 +688,7 @@ MonoBehaviour:
     Accuracy: 1
     Weight: 3.2
     Unlockability:
-      UnlockMethod: 3
+      UnlockMethod: 0
       ItemType: 0
       Price: 500
       UnlockAtLevel: 50

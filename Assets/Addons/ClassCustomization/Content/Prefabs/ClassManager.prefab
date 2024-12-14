@@ -257,52 +257,52 @@ MonoBehaviour:
       isEnabled: 1
     - Name: Rifle02
       GunID: 8
-      isEnabled: 0
+      isEnabled: 1
     - Name: Rifle03
       GunID: 9
-      isEnabled: 0
+      isEnabled: 1
     - Name: Rifle04
       GunID: 10
-      isEnabled: 0
+      isEnabled: 1
     - Name: Axe
       GunID: 11
-      isEnabled: 0
+      isEnabled: 1
     - Name: Grenade2
       GunID: 12
       isEnabled: 1
     - Name: Pistol1
       GunID: 13
-      isEnabled: 0
+      isEnabled: 1
     - Name: Pistol2
       GunID: 14
-      isEnabled: 0
+      isEnabled: 1
     - Name: Pistol3
       GunID: 15
-      isEnabled: 0
+      isEnabled: 1
     - Name: Knife2
       GunID: 16
-      isEnabled: 0
+      isEnabled: 1
     - Name: ShotGun2
       GunID: 17
-      isEnabled: 0
+      isEnabled: 1
     - Name: SniperRifle
       GunID: 18
-      isEnabled: 0
+      isEnabled: 1
     - Name: TommyGun
       GunID: 19
-      isEnabled: 0
+      isEnabled: 1
     - Name: Axe2
       GunID: 20
-      isEnabled: 0
+      isEnabled: 1
     - Name: Grenade Gun
       GunID: 21
-      isEnabled: 0
+      isEnabled: 1
     - Name: Rifle05
       GunID: 22
-      isEnabled: 0
+      isEnabled: 1
     - Name: SniperRifle2
       GunID: 23
-      isEnabled: 0
+      isEnabled: 1
     - Name: Rifle6
       GunID: 24
       isEnabled: 1
@@ -611,16 +611,16 @@ MonoBehaviour:
       isEnabled: 1
     - Name: Pistol1
       GunID: 13
-      isEnabled: 0
+      isEnabled: 1
     - Name: Pistol2
       GunID: 14
-      isEnabled: 0
+      isEnabled: 1
     - Name: Pistol3
       GunID: 15
-      isEnabled: 0
+      isEnabled: 1
     - Name: Knife2
       GunID: 16
-      isEnabled: 0
+      isEnabled: 1
     - Name: ShotGun2
       GunID: 17
       isEnabled: 0

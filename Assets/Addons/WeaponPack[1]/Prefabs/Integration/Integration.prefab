@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1422902475502524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4727027233929010}
+  - component: {fileID: 114688559576061678}
+  m_Layer: 0
+  m_Name: Integration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4727027233929010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422902475502524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114688559576061678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422902475502524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dead4aa4c287f084ab150cb4b5371c27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunData:
+  - Name: Rifle02
+    Type: 1
+    Damage: 25
+    FireRate: 0.14
+    ReloadTime: 2.5
+    Range: 300
+    Accuracy: 1
+    Weight: 3
+    Unlockability:
+      UnlockMethod: 2
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 10
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114627123713738210, guid: 4c99ad92e64c6e84e9db650fded82851,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 90c1d5d12843d2d42a9ae8afc17465a0, type: 3}
+  - Name: Rifle03
+    Type: 4
+    Damage: 22
+    FireRate: 0.12
+    ReloadTime: 2.2
+    Range: 300
+    Accuracy: 1
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 600
+      UnlockAtLevel: 18
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114130157475845540, guid: c359a38fd7943984c9b187de844196bc,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 01dc2b5197fe0bf42a9dbb9de2ff9370, type: 3}
+  - Name: Rifle04
+    Type: 1
+    Damage: 18
+    FireRate: 0.1
+    ReloadTime: 2.2
+    Range: 250
+    Accuracy: 1
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 400
+      UnlockAtLevel: 20
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114744907830865326, guid: 504e5e6ce47526141ba697ee3dc18c1c,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 8c7b88210d98b364a82b691d617ac7f6, type: 3}
+  - Name: Axe
+    Type: 6
+    Damage: 75
+    FireRate: 0.7
+    ReloadTime: 2.2
+    Range: 2
+    Accuracy: 5
+    Weight: 0
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 00000000
+    PickUpPrefab: {fileID: 114482664790742456, guid: bbc9908c348a88945a7d893cb1b33b9b,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 0be831fd36e8ecb48be7d130f3cee01e, type: 3}
+  - Name: Grenade2
+    Type: 5
+    Damage: 90
+    FireRate: 2
+    ReloadTime: 2
+    Range: 125
+    Accuracy: 1
+    Weight: 0
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114611207597141326, guid: 1349eaaa2fdc655499bc141d67ba20b2,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 5888e24ba146f2141b5c01400fd2c24c, type: 3}
+  - Name: Pistol1
+    Type: 3
+    Damage: 25
+    FireRate: 0.12
+    ReloadTime: 2
+    Range: 200
+    Accuracy: 3
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114132530166984838, guid: af0169a91dd7ab84a93fc332e3795084,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 132340e9c564e034cac78c90e66afbe8, type: 3}
+  - Name: Pistol2
+    Type: 3
+    Damage: 32
+    FireRate: 0.15
+    ReloadTime: 2
+    Range: 200
+    Accuracy: 3
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 100
+      UnlockAtLevel: 24
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114097632518871690, guid: 679d4b42463d61245ba5b89f2c68495a,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: f927592ae8ae8814fb98a776e7ad76ce, type: 3}
+  - Name: Pistol3
+    Type: 3
+    Damage: 55
+    FireRate: 0.3
+    ReloadTime: 2.5
+    Range: 300
+    Accuracy: 4
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 2
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 5
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114622311065374522, guid: 3f22a89e5fc7019479350a48e193470a,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: e3e438626792ac1448b824a39bf7f012, type: 3}
+  - Name: Knife2
+    Type: 6
+    Damage: 75
+    FireRate: 0.7
+    ReloadTime: 2.2
+    Range: 2
+    Accuracy: 5
+    Weight: 0
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 100
+      UnlockAtLevel: 32
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114598365073063050, guid: b112b7431f798684086ed06585de67fa,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: dd074e57bb6ef2f41ba3b02e50a1e1b0, type: 3}
+  - Name: ShotGun2
+    Type: 0
+    Damage: 55
+    FireRate: 1.25
+    ReloadTime: 5
+    Range: 700
+    Accuracy: 1
+    Weight: 3
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 500
+      UnlockAtLevel: 7
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114981697282501384, guid: 057449d343d2b0044a7cf0f309f43411,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 13dd262c878be1e458f1339688556689, type: 3}
+  - Name: SniperRifle
+    Type: 2
+    Damage: 100
+    FireRate: 1.8
+    ReloadTime: 3
+    Range: 700
+    Accuracy: 5
+    Weight: 3
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 300
+      UnlockAtLevel: 40
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114915770012972038, guid: 1d26ddf0aabf6d14081e2c8400995b86,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 72802aa63033f0649942c7e409dc8807, type: 3}
+  - Name: TommyGun
+    Type: 3
+    Damage: 18
+    FireRate: 0.085
+    ReloadTime: 2
+    Range: 200
+    Accuracy: 1
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 250
+      UnlockAtLevel: 45
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 114899980444319382, guid: f8a7af9cc55324d43a8bfbdb1486d1cd,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 5fe2fe8dcf4108d4aa3a87dd1d9def81, type: 3}
+  - Name: Axe2
+    Type: 6
+    Damage: 75
+    FireRate: 0.7
+    ReloadTime: 2.2
+    Range: 2
+    Accuracy: 5
+    Weight: 0
+    Unlockability:
+      UnlockMethod: 1
+      ItemType: 0
+      Price: 1000
+      UnlockAtLevel: 0
+      NoAllowedCoins: 00000000
+    PickUpPrefab: {fileID: 114930040278701926, guid: 0935d8fef30953945a3527a97adbe6ad,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 2aea036a4f682f745bf426db3d98eaf8, type: 3}
+  - Name: Grenade Gun
+    Type: 7
+    Damage: 70
+    FireRate: 1
+    ReloadTime: 10
+    Range: 100
+    Accuracy: 1
+    Weight: 3
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 500
+      UnlockAtLevel: 10
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 7548776735259354342, guid: 9671c060480089d498fd00c5727a7d08,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 18d7e07d96f1843469a6722338e0e2d7, type: 3}
+  - Name: Rifle05
+    Type: 1
+    Damage: 34
+    FireRate: 0.2
+    ReloadTime: 3.2
+    Range: 600
+    Accuracy: 4
+    Weight: 2.5
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 600
+      UnlockAtLevel: 15
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 7421879164375284804, guid: d9998cf10c2d497409b193b93aebcb34,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 37f73d87b02de6b40b4f14338aab52b1, type: 3}
+  - Name: SniperRifle2
+    Type: 2
+    Damage: 100
+    FireRate: 1.6
+    ReloadTime: 3.4
+    Range: 700
+    Accuracy: 5
+    Weight: 2.4
+    Unlockability:
+      UnlockMethod: 3
+      ItemType: 0
+      Price: 700
+      UnlockAtLevel: 22
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 7683112845056517830, guid: b1b2e1ade9c3f3945a9c1147b011f452,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: f35ee9f3a44d8324a9023eb473ff168d, type: 3}
+  weaponPack:
+  - {fileID: 4593507772939008379, guid: f74f32dbc0f28e04aa7ede6c904c86bf, type: 3}
+  - {fileID: 2587589144366559373, guid: 3ef8c6cc23e7a7342a816fe182cecf42, type: 3}
+  - {fileID: 1266174657986840515, guid: c5d1c9931f62c874a9984c6f8a2c2459, type: 3}
+  - {fileID: 2213055415716374252, guid: 381b368fbd399974abf1dc36980b0f69, type: 3}
+  - {fileID: 9219612901658732427, guid: a402c37ff095d324b9e11d317f3e5eb4, type: 3}
+  - {fileID: 8390128777799954992, guid: 06a9ae7dfcde8ac4bb42e924ebdf8c02, type: 3}
+  - {fileID: 4290175278297998256, guid: e85a744e7fb89d2418a4c8f3b6ead69a, type: 3}
+  - {fileID: 3672720111618105029, guid: f15d121e6fa9160418baeb9a0ac0e42f, type: 3}
+  - {fileID: 861720365096780599, guid: 5fea1ca3a15975a42b023978c484cd2f, type: 3}
+  - {fileID: 4185304806105178324, guid: 90d0395eb6b07d643af19908d98357e5, type: 3}
+  - {fileID: 5341877821715329662, guid: 36546a034c2d883419989d98210bc4ff, type: 3}
+  - {fileID: 7072929586607369113, guid: 36d6ec3b88b48854d9c42022eb780027, type: 3}
+  - {fileID: 608807591754182495, guid: 64c95dd8bf3544d4a95014440d2dbd9e, type: 3}
+  - {fileID: 4744014747009011676, guid: ed360a434eb256640807840e57a5ad25, type: 3}
+  - {fileID: 3755132590435570692, guid: 09f55a456e27c5b4c959b9798eaa6162, type: 3}
+  - {fileID: 8443739429542330214, guid: ee17fd7ba99ffc043989af457107cee5, type: 3}
+  defaultData:
+  - WeaponName: Rifle02
+    GameObjectName: Rifle02 [FP]
+    DefaultGunID: 8
+  - WeaponName: Rifle03
+    GameObjectName: Rifle03 [FP]
+    DefaultGunID: 9
+  - WeaponName: Rifle04
+    GameObjectName: Rifle04 [FP]
+    DefaultGunID: 10
+  - WeaponName: Axe
+    GameObjectName: Axe [FP]
+    DefaultGunID: 11
+  - WeaponName: Grenade2
+    GameObjectName: Grenade2 [FP]
+    DefaultGunID: 12
+  - WeaponName: Pistol1
+    GameObjectName: Pistol1 [FP]
+    DefaultGunID: 13
+  - WeaponName: Pistol2
+    GameObjectName: Pistol2 [FP]
+    DefaultGunID: 14
+  - WeaponName: Pistol3
+    GameObjectName: Pistol3 [FP]
+    DefaultGunID: 15
+  - WeaponName: Knife2
+    GameObjectName: Knife2 [FP]
+    DefaultGunID: 16
+  - WeaponName: ShotGun2
+    GameObjectName: ShotGun2 [FP]
+    DefaultGunID: 17
+  - WeaponName: SniperRifle
+    GameObjectName: SniperRifle [FP]
+    DefaultGunID: 18
+  - WeaponName: TommyGun
+    GameObjectName: TommyGun [FP]
+    DefaultGunID: 19
+  - WeaponName: Axe2
+    GameObjectName: Axe2 [FP]
+    DefaultGunID: 20
+  - WeaponName: Grenade Gun
+    GameObjectName: Grenade Gun [FP]
+    DefaultGunID: 21
+  - WeaponName: Rifle05
+    GameObjectName: Rifle05 [FP]
+    DefaultGunID: 22
+  - WeaponName: SniperRifle2
+    GameObjectName: SniperRifle2 [FP]
+    DefaultGunID: 23
+  loadouts:
+  - WeaponNames:
+    - Rifle02
+    - Pistol2
+    - Axe
+    - Grenade Gun
+    Loadout: {fileID: 11400000, guid: b9bb559bc410d4e43899fb836abe046c, type: 2}
+  - WeaponNames:
+    - ShotGun2
+    - Pistol2
+    - Knife2
+    - Grenade2
+    Loadout: {fileID: 11400000, guid: 43e41d155f634194a95d092b950ff368, type: 2}
+  - WeaponNames:
+    - SniperRifle
+    - Pistol3
+    - Knife2
+    - Grenade
+    Loadout: {fileID: 11400000, guid: 860c5499db7d26d45af7dff7ec60fc90, type: 2}
+  - WeaponNames:
+    - Rifle03
+    - TommyGun
+    - Axe2
+    - Grenade2
+    Loadout: {fileID: 11400000, guid: 082df1c17a9e1d04fae89e5866e34bbe, type: 2}
