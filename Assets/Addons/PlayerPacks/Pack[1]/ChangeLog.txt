@@ -1,0 +1,17 @@
+Player Pack #1 for MFPS 2.0
+
+Version 1.1.0
+
+Change Log:
+
+1.1.0
+Compatibility with MFPS 1.9 (Can't use this version of the addon with older MFPS versions)
+
+1.0.2
+Fix: Player meshes missing references in player prefabs since the November source asset update.
+
+1.0.1
+Fix: Null component in player prefabs.
+
+1.0 
+Initial Release

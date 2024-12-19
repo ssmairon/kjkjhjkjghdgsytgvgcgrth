@@ -116,7 +116,7 @@ MonoBehaviour:
     KeyName: LM
     LastVersion: 1.5.1
     Info: {fileID: 11400000, guid: 2f928140c6f8a9249a4607ef8a2662dc, type: 2}
-    CurrentVersion: --
+    CurrentVersion: 1.5.1
     MinVersion: 1.5.0
     FolderName: LevelSystem
     DoNotRequireEnabled: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
     KeyName: ULSP
     LastVersion: 2.4.1
     Info: {fileID: 11400000, guid: 2a81664e1302fce4cbde5078207b1a44, type: 2}
-    CurrentVersion: --
+    CurrentVersion: 2.4.1
     MinVersion: 1.9.47
     FolderName: ULoginSystemPro
     DoNotRequireEnabled: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
     KeyName: 
     LastVersion: 1.3.3
     Info: {fileID: 11400000, guid: 72b58cf0da0a2a2479b73d553422c0b3, type: 2}
-    CurrentVersion: --
+    CurrentVersion: 1.3.2
     MinVersion: 1.2
     FolderName: WeaponPack[1]
     DoNotRequireEnabled: 1
@@ -260,7 +260,7 @@ MonoBehaviour:
     KeyName: 
     LastVersion: 1.1.0
     Info: {fileID: 11400000, guid: 3866c5bd30fe0e544a2e12cc9af930e4, type: 2}
-    CurrentVersion: --
+    CurrentVersion: 1.1.0
     MinVersion: 1.0
     FolderName: PlayerPacks/Pack[1]
     DoNotRequireEnabled: 1
@@ -386,7 +386,7 @@ MonoBehaviour:
     KeyName: FPLEGS
     LastVersion: 1.0.0
     Info: {fileID: 11400000, guid: 662aa634bae4d1e4bb89cd04797f83b1, type: 2}
-    CurrentVersion: --
+    CurrentVersion: 1.0.0
     MinVersion: 1.9.3
     FolderName: FPLegs
     DoNotRequireEnabled: 1

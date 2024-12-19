@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8158422420696367038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2902576528805366310}
+  - component: {fileID: 4726178691094251641}
+  m_Layer: 0
+  m_Name: WP1_TP_Positions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2902576528805366310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158422420696367038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4726178691094251641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158422420696367038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b073521d190bb47b8339c8169a99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SearchByName: 1
+  TPWeapons:
+  - WeaponName: Axe
+    GunID: 11
+    Position: {x: 0.0267, y: 0.0639, z: -0.0259}
+    Rotation: {x: -0.16557391, y: 0.22430395, z: -0.39094624, w: 0.87717396}
+    Size: {x: 0.83961946, y: 0.8396196, z: 0.8396197}
+    IKTargetPosition: {x: 0, y: 0, z: 0}
+    IKTargetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - WeaponName: Axe2
+    GunID: 20
+    Position: {x: -0.087, y: 0.022, z: -0.076}
+    Rotation: {x: -0.04540599, y: 0.5256951, z: 0.1947258, w: 0.8268403}
+    Size: {x: 0.5422753, y: 0.542275, z: 0.5422749}
+    IKTargetPosition: {x: 0, y: 0, z: 0}
+    IKTargetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - WeaponName: Grenade2
+    GunID: 12
+    Position: {x: 0.0061, y: 0.0197, z: 0.0007}
+    Rotation: {x: -0.74599403, y: 0.00064116676, z: -0.28431687, w: 0.6022096}
+    Size: {x: 0.8396196, y: 0.8396198, z: 0.8396194}
+    IKTargetPosition: {x: 0, y: 0, z: 0}
+    IKTargetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - WeaponName: Knife2
+    GunID: 16
+    Position: {x: 0.03, y: 0.089, z: -0.009}
+    Rotation: {x: -0.16557391, y: 0.22430395, z: -0.39094624, w: 0.87717396}
+    Size: {x: 0.83961946, y: 0.8396196, z: 0.8396197}
+    IKTargetPosition: {x: 0, y: 0, z: 0}
+    IKTargetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - WeaponName: Pistol1
+    GunID: 13
+    Position: {x: 0.068, y: 0.032, z: 0.044}
+    Rotation: {x: -0.29087153, y: 0.39787942, z: -0.095178746, w: 0.8648854}
+    Size: {x: 0.8396196, y: 0.8396198, z: 0.83961993}
+    IKTargetPosition: {x: -0.078, y: -0.1, z: -0.028}
+    IKTargetRotation: {x: 0.35769266, y: 0.5717295, z: 0.5908984, w: 0.4427421}
+  - WeaponName: Pistol2
+    GunID: 14
+    Position: {x: 0.049, y: 0.044, z: 0.0286}
+    Rotation: {x: -0.26219684, y: 0.42183077, z: -0.06844043, w: 0.8652327}
+    Size: {x: 0.8396194, y: 0.83962, z: 0.83961976}
+    IKTargetPosition: {x: -0.0816, y: -0.0979, z: 0.0177}
+    IKTargetRotation: {x: 0.30663833, y: 0.6183661, z: 0.45381308, w: 0.5636044}
+  - WeaponName: Pistol3
+    GunID: 15
+    Position: {x: 0.0937, y: 0.0589, z: 0.0595}
+    Rotation: {x: -0.2720999, y: 0.40745977, z: -0.10726109, w: 0.86512035}
+    Size: {x: 0.5877337, y: 0.587734, z: 0.58773375}
+    IKTargetPosition: {x: -0.188, y: -0.146, z: -0.105}
+    IKTargetRotation: {x: 0.23936027, y: 0.4758865, z: 0.65814114, w: 0.5320611}
+  - WeaponName: Rifle02
+    GunID: 8
+    Position: {x: 0.098, y: 0.055, z: 0.043}
+    Rotation: {x: -0.25674883, y: 0.43106866, z: -0.05570335, w: 0.86322486}
+    Size: {x: 0.6656926, y: 0.66569287, z: 0.66569376}
+    IKTargetPosition: {x: -0.143, y: -0.063, z: 0.118}
+    IKTargetRotation: {x: 0.3639919, y: 0.108201146, z: 0.7724217, w: 0.50908464}
+  - WeaponName: Rifle03
+    GunID: 9
+    Position: {x: 0.182, y: 0.066, z: 0.1}
+    Rotation: {x: -0.2791271, y: 0.40392634, z: -0.101385936, w: 0.8652471}
+    Size: {x: 0.83961976, y: 0.83962053, z: 0.83962035}
+    IKTargetPosition: {x: -0.1372, y: -0.041, z: -0.0571}
+    IKTargetRotation: {x: 0.34893858, y: 0.50642884, z: 0.5520163, w: 0.5630716}
+  - WeaponName: Rifle04
+    GunID: 10
+    Position: {x: 0.091, y: 0.054, z: 0.066}
+    Rotation: {x: -0.2894453, y: 0.41052803, z: -0.09943712, w: 0.85895306}
+    Size: {x: 0.76405406, y: 0.7640542, z: 0.76405406}
+    IKTargetPosition: {x: -0.13124593, y: 0.020058904, z: 0.10811676}
+    IKTargetRotation: {x: 0.020330241, y: 0.3361635, z: 0.21046965, w: 0.91776}
+  - WeaponName: ShotGun2
+    GunID: 17
+    Position: {x: 0.203, y: 0.106, z: 0.119}
+    Rotation: {x: -0.2891667, y: 0.4129036, z: -0.100237474, w: 0.85781455}
+    Size: {x: 0.7409235, y: 0.74092364, z: 0.7409236}
+    IKTargetPosition: {x: -0.119, y: -0.047, z: -0.042}
+    IKTargetRotation: {x: 0.3729341, y: 0.08363647, z: 0.8278484, w: 0.41059992}
+  - WeaponName: SniperRifle
+    GunID: 18
+    Position: {x: 0.253, y: 0.189, z: 0.159}
+    Rotation: {x: -0.29087326, y: 0.39786962, z: -0.09517407, w: 0.8648898}
+    Size: {x: 0.74092335, y: 0.7409237, z: 0.7409235}
+    IKTargetPosition: {x: -0.124, y: -0.098, z: -0.089}
+    IKTargetRotation: {x: 0.13551658, y: 0.26113918, z: 0.6846392, w: 0.66686636}
+  - WeaponName: TommyGun
+    GunID: 19
+    Position: {x: 0.063, y: 0.033, z: 0.045}
+    Rotation: {x: -0.28922412, y: 0.41241372, z: -0.10007124, w: 0.85805017}
+    Size: {x: 0.74092335, y: 0.7409236, z: 0.7409235}
+    IKTargetPosition: {x: -0.0968, y: -0.072, z: 0.1138}
+    IKTargetRotation: {x: 0.17231584, y: 0.5536692, z: 0.4823138, w: 0.6566058}
+  - WeaponName: Grenade Gun
+    GunID: 21
+    Position: {x: 0.015, y: -0.021, z: -0.006}
+    Rotation: {x: -0.26176786, y: -0.36111298, z: 0.114017434, w: 0.887736}
+    Size: {x: 0.7732611, y: 0.7732599, z: 0.77326155}
+    IKTargetPosition: {x: 0.41, y: -0.063, z: 0.101}
+    IKTargetRotation: {x: 0.37873378, y: 0.76313895, z: 0.34060255, w: 0.3977053}
+  - WeaponName: Rifle05
+    GunID: 22
+    Position: {x: 0.217, y: 0.138, z: 0.122}
+    Rotation: {x: -0.2897529, y: 0.4074959, z: -0.098435305, w: 0.8604074}
+    Size: {x: 0.59779084, y: 0.59779084, z: 0.5977909}
+    IKTargetPosition: {x: -0.139, y: -0.187, z: -0.189}
+    IKTargetRotation: {x: 0.22685401, y: 0.44775948, z: 0.7193836, w: 0.48014176}
+  - WeaponName: SniperRifle2
+    GunID: 23
+    Position: {x: 0.278, y: 0.192, z: 0.148}
+    Rotation: {x: -0.2903864, y: 0.40188187, z: -0.09654582, w: 0.8630445}
+    Size: {x: 0.61049646, y: 0.6104965, z: 0.61049664}
+    IKTargetPosition: {x: -0.2, y: -0.071, z: -0.095}
+    IKTargetRotation: {x: 0.44527254, y: 0.29871282, z: 0.60007846, w: 0.5936404}
+  Sources: []

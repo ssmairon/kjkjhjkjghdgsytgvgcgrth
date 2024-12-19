@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Player Pack #1
+  m_EditorClassIdentifier: 
+  Name: Player Pack #1
+  Version: 1.1.0
+  MinMFPSVersion: 1.9
+  Instructions: "This package comes with the integration of <b>8 different player
+    models</b> from Maksim Bugrimov's asset <b>PBR Customized Soldier</b>.\r\n\r\nThe
+    8 player prefabs are ready to use, you simply have to assign them to the team
+    that you select for them, the package also includes the auto-integration with
+    Player Selector and Weapon Pack #1 addons.\r\n\n<b>Integration:</b>\n\nFollow
+    the build-in documentation at <b>MFPS -> Addons -> Player Pack -> Pack 1 -> Documentation.</b>\n\r\n\u2589
+    <b>Important:</b>\nThis Addon requires that you own the PBR Customized Soldier
+    asset from the Asset Store, this addon doesn't include any file of the source
+    asset therefore without it this addon doesn't work.\n\nAsset Link: <color=#00CEFFFF>https://assetstore.unity.com/packages/3d/characters/humanoids/pbr-customized-soldier-111945?aid=1101lJFi&utm_source=aff</color>"
+  TutorialScript: PlayerPack1Documentation
